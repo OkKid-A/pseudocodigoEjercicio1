@@ -1,0 +1,13 @@
+Proceso ParImpar
+	pares <- 0
+	impares <- 0
+	Para i = 0; hasta N;i++
+		random <- aleatorio(1,100)
+		Si (random%2) == 0 Entonces
+			pares++
+		Sino
+			impares++
+		Fin Si
+	Fin Para
+	Escribir "Se encontraron ",pares," números pares y ",impares, "números impares"
+	FinProceso
